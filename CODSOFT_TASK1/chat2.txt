@@ -1,0 +1,47 @@
+CodBot
+Chat cleared! How can I help you? 🤖
+
+You
+hello
+
+CodBot
+Hey! Nice to see you. How can I assist?
+
+You
+what is your name?
+
+CodBot
+My name is CodBot. Nice to meet you!
+
+You
+tell me a joke
+
+CodBot
+Why did the computer go to the doctor? Because it had a virus! 😷
+
+You
+calculate (25 + 15) * 2
+
+CodBot
+The answer is 80 🧮
+
+You
+what is ai
+
+CodBot
+Artificial Intelligence is the simulation of human intelligence by machines. 🤖
+
+CodBot
+Try asking me:
+
+👋 hello
+🤖 what is your name?
+😊 how are you?
+😂 tell me a joke
+🕒 what time is it?
+📅 what is today's date?
+🐍 what is Python?
+🧠 what is AI?
+🧮 calculate 25 * 4
+🧮 (10 + 5) * 2
+👋 bye

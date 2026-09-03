@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tic-Tac-Toe · Unbeatable AI — Minimax with Alpha-Beta Pruning</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>Tic-Tac-Toe · <em>Unbeatable</em> AI</h1>
+    <div class="sub">Minimax + alpha-beta pruning · the AI never loses — the best you can do is draw</div>
+  </header>
+
+  <div class="card">
+    <div class="btnrow">
+      <button class="btn active" id="btnX">Play as <b style="color:var(--x)">X</b> · you start</button>
+      <button class="btn" id="btnO">Play as <b style="color:var(--o)">O</b> · AI starts</button>
+    </div>
+  </div>
+
+  <div class="card" style="padding:14px">
+    <div class="board" id="board"></div>
+    <div class="status" id="status" style="margin-top:14px"></div>
+  </div>
+
+  <div class="card" style="padding:12px 16px">
+    <div class="stats">
+      <div class="you"><div class="num" id="sYou">0</div><div class="lbl">You</div></div>
+      <div class="ties"><div class="num" id="sTie">0</div><div class="lbl">Draws</div></div>
+      <div class="ai"><div class="num" id="sAI">0</div><div class="lbl">AI</div></div>
+    </div>
+  </div>
+
+  <div class="card" style="padding:10px 16px">
+    <div class="meta">
+      <span id="nodes">Nodes evaluated: —</span>
+      <span id="statsLine">Select your side and play</span>
+    </div>
+  </div>
+
+  <button class="reset" id="reset">↺ New game</button>
+
+  <div class="foot">
+    The AI explores the full game tree with <code>minimax(board, depth, α, β)</code>, prefers
+    <b>fast wins / slow losses</b>, and prunes provably-irrelevant branches with α-β.
+    Exhaustively verified: <b>0 losses</b> across all legal game lines, as first and second player.
+  </div>
+</div>
+
+<script src="engine.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.ignoreFiles": [".vscode/**", "**/*.zip"]
+}
